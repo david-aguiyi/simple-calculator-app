@@ -11,15 +11,16 @@ html {
 
   .calculator {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 390px;
   }
 
   .calculator-screen {
+    border-radius: 9px;
     width: 100%;
     font-size: 5rem;
     height: 80px;
@@ -34,7 +35,7 @@ html {
   button {
     height: 60px;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 12px;
     border: 1px solid #c4c4c4;
     background-color: transparent;
     font-size: 2rem;
