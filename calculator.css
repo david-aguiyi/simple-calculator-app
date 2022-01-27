@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 67.5%;
     box-sizing: border-box;
   }
   
@@ -12,7 +12,7 @@ html {
 
   .calculator {
     border: 1px solid #ccc;
-    border-radius: 30px;
+    border-radius: 27px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -21,7 +21,7 @@ html {
   }
 
   .calculator-screen {
-    border-radius: 9px;
+    border-radius: 27px;
     width: 100%;
     font-size: 5rem;
     height: 80px;
@@ -37,12 +37,12 @@ html {
     height: 60px;
     background-color: #fff;
     border-radius: 12px;
-    border: 1px solid #c4c4c4;
+    border: 1px solid orange;
     background-color: transparent;
     font-size: 2rem;
     color: #333;
     background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+    box-shadow: -3px 3px orange, -2px 2px orange, -1px 1px orange;
     text-shadow: 0 1px rgba(255,255,255,.4);
   }
   
