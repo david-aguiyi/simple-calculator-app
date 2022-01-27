@@ -46,6 +46,10 @@ html {
     text-shadow: 0 1px rgba(255,255,255,.4);
   }
   
+  button:active{
+    
+  }
+
   button:hover {
     background-color: #eaeaea;
   }
