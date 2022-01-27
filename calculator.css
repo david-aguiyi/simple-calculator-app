@@ -18,7 +18,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 390px;
+    width: 400px;
     background-color: rgb(0, 0, 0);
   }
 
@@ -93,8 +93,8 @@ html {
     border-color: #337cac;
     color: #fff;
     height: 100%;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
     grid-column-start: 4;
     grid-column-end: 5;
   }
