@@ -108,8 +108,16 @@ html {
     color: rgb(0, 0, 0);
   }
 
+  .percentage-key:hover{
+    
+  }
+
   .delete-key {
     background-color: orange;
     border-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+  }
+
+  .delete-key:hover{
+    
   }
