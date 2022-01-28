@@ -20,6 +20,7 @@ html {
     transform: translate(-50%, -50%);
     width: 400px;
     background-color: rgb(0, 0, 0);
+    user-select: none;
   }
 
   .calculator-screen {
