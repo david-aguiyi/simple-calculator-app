@@ -51,7 +51,7 @@ html {
   
   button:active{
     transform: translateY(7px);
-    box-shadow: 0 5px rgb(175, 119, 15);
+    box-shadow: 0 5px rgb(56, 37, 3);
   }
 
   button:hover {
@@ -64,19 +64,13 @@ html {
   }
   
   .all-clear {
-    background-color: #f0595f;
+    background-color: orange;
     border-color: #b0353a;
     color: #fff;
   }
   
   .all-clear:hover {
     background-color: #f17377;
-  }
-  
-  .equal-sign {
-    background-color: #2e86c0;
-    border-color: #337cac;
-    color: #fff;
   }
   
   .equal-sign:hover {
@@ -102,13 +96,13 @@ html {
   }
 
   .percentage-key {
-    background-color: #2e86c0;
+    background-color: orange;
     border-color: #337cac;
     color: #fff;
   }
 
   .delete-key {
-    background-color: #2e86c0;
+    background-color: orange;
     border-color: #337cac;
     color: #fff;
   }
