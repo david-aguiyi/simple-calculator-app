@@ -100,3 +100,15 @@ html {
     grid-column-start: 3;
     grid-column-end: 5;
   }
+
+  .percentage-key {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+  }
+
+  .delete-key {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+  }
