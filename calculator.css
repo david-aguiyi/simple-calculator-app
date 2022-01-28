@@ -46,6 +46,7 @@ html {
     color: rgba(250, 250, 250, 0.829);
     text-shadow: 0 1px rgba(255, 255, 255, 0.288);
     box-shadow: 0 5px orange;
+    cursor: pointer;
   }
   
   button:active{
@@ -89,8 +90,8 @@ html {
   }
 
   .equal-sign {
-    background-color: #ff9100;
-    border-color: #337cac;
+    background-color: orange;
+    border-color: rgba(163, 107, 3, 0.842);
     color: #fff;
     height: 100%;
     grid-row-start: 6;
