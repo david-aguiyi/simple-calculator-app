@@ -61,11 +61,12 @@ html {
   .operator {
     color: #000000;
     background-color: orange;
+    border-color: rgb(0, 0, 0);
   }
   
   .all-clear {
-    background-color: orange;
-    border-color: #b0353a;
+    background-color: orange; 
+    border-color: rgb(0, 0, 0);
     color: #fff;
   }
   
@@ -97,12 +98,12 @@ html {
 
   .percentage-key {
     background-color: orange;
-    border-color: #337cac;
+    border-color: rgb(0, 0, 0);
     color: #fff;
   }
 
   .delete-key {
     background-color: orange;
-    border-color: #337cac;
+    border-color: rgb(0, 0, 0);
     color: #fff;
   }
