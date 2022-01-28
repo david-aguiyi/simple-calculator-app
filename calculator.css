@@ -45,14 +45,14 @@ html {
     background-color: transparent;
     font-size: 2rem;
     color: rgba(250, 250, 250, 0.829);
-    text-shadow: 0 1px rgba(255, 255, 255, 0.288);
+    text-shadow: 0 2px rgba(255, 255, 255, 0.288);
     box-shadow: 0 5px orange;
     cursor: pointer;
   }
   
   button:active{
     transform: translateY(7px);
-    box-shadow: 0 5px rgb(56, 37, 3);
+    box-shadow: 0 5px rgb(73, 39, 1);
   }
 
   button:hover {
@@ -68,8 +68,10 @@ html {
   .all-clear {
     background-color: orange; 
     border-color: rgb(0, 0, 0);
-    color: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
   }
+  
   
   .all-clear:hover {
     background-color: #f17377;
@@ -89,7 +91,7 @@ html {
   .equal-sign {
     background-color: orange;
     border-color: rgb(0, 0, 0);
-    color: #fff;
+    color: rgb(0, 0, 0);
     height: 100%;
     grid-row-start: 6;
     grid-row-end: 5;
@@ -100,11 +102,11 @@ html {
   .percentage-key {
     background-color: orange;
     border-color: rgb(0, 0, 0);
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
 
   .delete-key {
     background-color: orange;
     border-color: rgb(0, 0, 0);
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
