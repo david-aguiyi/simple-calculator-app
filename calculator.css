@@ -60,6 +60,7 @@ html {
   
   .operator {
     color: #337cac;
+    background-color: orange;
   }
   
   .all-clear {
@@ -91,7 +92,7 @@ html {
 
   .equal-sign {
     background-color: orange;
-    border-color: rgba(163, 107, 3, 0.842);
+    border-color: rgb(0, 0, 0);
     color: #fff;
     height: 100%;
     grid-row-start: 6;
