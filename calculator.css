@@ -89,12 +89,12 @@ html {
   }
 
   .equal-sign {
-    background-color: #2e86c0;
+    background-color: #ff9100;
     border-color: #337cac;
     color: #fff;
     height: 100%;
-    grid-row-start: 5;
-    grid-row-end: 0;
-    grid-column-start: 4;
-    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
