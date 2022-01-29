@@ -67,6 +67,10 @@ html {
     background-color: orange;
     border-color: rgb(0, 0, 0);
   }
+
+  .operator:hover{
+    background-color: rgb(212, 138, 0);
+  }
   
   .all-clear {
     background-color: orange; 
@@ -77,11 +81,11 @@ html {
   
   
   .all-clear:hover {
-    background-color: #f17377;
+    background-color: rgb(212, 138, 0);
   }
   
   .equal-sign:hover {
-    background-color: #4e9ed4;
+    background-color: rgb(212, 138, 0);
   }
 
   .calculator-keys {
@@ -109,7 +113,7 @@ html {
   }
 
   .percentage-key:hover{
-    
+    background-color: rgb(212, 138, 0);
   }
 
   .delete-key {
@@ -119,5 +123,5 @@ html {
   }
 
   .delete-key:hover{
-    
+    background-color: rgb(212, 138, 0);
   }
