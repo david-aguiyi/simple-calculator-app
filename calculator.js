@@ -36,7 +36,7 @@ keys.addEventListener('click', (event) => {
   }
 
   if (target.classList.contains('delete-key')) {
-    console.log('delete-key', target.value);
+    console.log('delete', target.value);
     return;
   }
 
@@ -48,7 +48,14 @@ keys.addEventListener('click', (event) => {
   if (target.classList.contains('all-clear')) {
     console.log('clear', target.value);
     return;
-  }
+  } 
 
-  console.log('digit', target.value);
-});
+    inputDigit(target.value);
+    updateDisplay();
+   });
+
+   function inputDigit(digit) {
+    const { displayValue } = calculator;
+    // Overwrite `displayValue` if the current value is '0' otherwise append to it
+    calculator.displayValue = displayValue === '0' ? digit : displayValue + digit;
+  }
