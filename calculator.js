@@ -9,6 +9,7 @@ function del() {
   calculator.displayValue = calculator.displayValue.slice(0, -1);
 }
 
+
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator;
 
@@ -64,6 +65,8 @@ function calculate(firstOperand, secondOperand, operator) {
     return firstOperand * secondOperand;
   } else if (operator === '/') {
     return firstOperand / secondOperand;
+  } else if (operator === '%') {
+    return firstOperand / 100 * secondOperand;
   }
 
   return secondOperand;
@@ -96,6 +99,7 @@ keys.addEventListener('click', event => {
     case '-':
     case '*':
     case '/':
+    case '%':
     case '=': 
     handleOperator(value);
     break;
