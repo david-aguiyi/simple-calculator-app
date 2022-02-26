@@ -5,6 +5,10 @@ const calculator = {
   operator: null,
 };
 
+function del() {
+  calculator.displayValue = calculator.displayValue.slice(0, -1);
+}
+
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator;
 
@@ -92,9 +96,12 @@ keys.addEventListener('click', event => {
     case '-':
     case '*':
     case '/':
-    case '=':
-      handleOperator(value);
+    case 'DEL':
+      del();
       break;
+    case '=': 
+    handleOperator(value);
+    break;
     case '.':
       inputDecimal(value);
       break;
