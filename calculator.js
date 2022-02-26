@@ -96,9 +96,6 @@ keys.addEventListener('click', event => {
     case '-':
     case '*':
     case '/':
-    case 'DEL':
-      del();
-      break;
     case '=': 
     handleOperator(value);
     break;
@@ -107,6 +104,9 @@ keys.addEventListener('click', event => {
       break;
     case 'all-clear':
       resetCalculator();
+      break;
+    case 'DEL':
+      del();
       break;
     default:
       if (Number.isInteger(parseFloat(value))) {
