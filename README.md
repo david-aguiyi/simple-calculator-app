@@ -1,4 +1,5 @@
-# CalculatorApp
-A simple calculator app
-with javascript,css and html
-used for simple maths calculations
+# Simple Calculator App
+
+A simple calculator app built with JavaScript, CSS and HTML.
+
+![image](https://user-images.githubusercontent.com/87682085/157236934-3b77fea4-b3ad-46b4-a067-210cd7eb4438.png)
